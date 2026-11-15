@@ -23,7 +23,7 @@ The environment configuration identifies the deployment environment as `github-p
 
 **5. How does automated deployment improve reliability compared to manual deployment?**
 
-Automated deployment improves reliability because the same checks are performed every time the workflow runs. It helps catch HTML errors and identify broken links before changes are deployed. It also reduces the chance of mistakes that can happen when someone manually uploads or publishes files. This makes the deployment process more consistent and saves time.
+Automated deployment improves reliability because the same checks are performed every time the workflow runs. It helps catch HTML errors and identify broken links before changes are deployed. It also reduces the chance of mistakes that can happen when someone manually uploads or publishes files. This makes the deployment process more consistent and saves time. Another benefit is that GitHub Actions provides a record of each workflow run, making it easier to identify problems and track whether changes were successfully deployed.
 
 **6. What happens if you push code to a different branch instead of `main`?**
 
